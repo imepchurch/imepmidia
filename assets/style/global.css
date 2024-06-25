@@ -16,7 +16,7 @@ h3 {
 /************************ Header **************************/
 
 header {
-	background-color: #347992;
+	background-color: #3366ff;
 	color: white;
 	padding: 1rem 0;
 	position: fixed;
@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #518898;
+	background-color: rgb(79, 153, 175);
 	border-radius: 5px;
 }
 
