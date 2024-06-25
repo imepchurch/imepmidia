@@ -1,0 +1,84 @@
+.slider {
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.slides {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+	min-width: 100%;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+	width: 100%;
+	display: block;
+}
+
+.controls {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+	color: white;
+}
+
+.controls span {
+	cursor: pointer;
+	margin: 0 1rem;
+	padding: 1rem 1.3rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 100%;
+	user-select: none;
+}
+
+.controls span:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.phases{
+	padding: 1rem 0;
+	background: #cfd4d34e;
+	position: relative;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.links img{
+	width: 2.5rem;
+}
+
+.links {
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 3.5%;
+	height: 200px;
+	width: 200px;
+	border: .5px solid #0000006d;
+	padding: .5rem;
+	background: white;
+}
+
+@media (max-width: 800px) {
+	.links {
+		margin: 1.5%;
+		height: 170px;
+		width: 170px;
+	}
+}
+
+.texts p{
+	margin: .5rem 1.5rem;
+}
